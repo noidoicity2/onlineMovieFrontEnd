@@ -86,14 +86,20 @@ nav a {
 .rating >h3 {
     color: #6f42c1;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
+    font-size: 25px;
     letter-spacing: 0.5px;
     word-spacing: 5px;
+    margin-bottom: 10px;
 }
 .card-img-top {
     height: 100%;
     width: 100%;
+}
+.view-count {
+    color: #6c757d;
+    font-style: italic;
 }
 
 
@@ -181,7 +187,59 @@ a.film-item:hover  {
 }
 .list-rating>li {
     display: block;
+    margin-bottom: 5px;
+    clear: both;
+    height: 100px;
+    /*line-height: 125px;*/
 
+}
+.list-rating>li:hover {
+    /*display: block;*/
+
+    /*background-color: #6c757d;*/
+}
+.list-rating>li>a {
+    text-decoration: none;
+    /*width: 100%;*/
+    margin-top: 10px;
+   /*min-height: 125px;*/
+    /*line-height: 125px;*/
+    /*color: #ffffff;*/
+
+}
+.list-rating>li>a:hover {
+    /*text-decoration: none;*/
+    /*width: 100%;*/
+    /*height: 80px;*/
+    /*color: #ffffff;*/
+    border: 1px solid #b8daff;
+
+}
+
+.small-img {
+    /*display: block;*/
+    width: 20%;
+    /*height: 121px;*/
+    float: left;
+    max-height: 100px;
+}
+.name-rating {
+    float: left;
+    width: 80%;
+    padding-left: 10px;;
+
+}
+.big-name {
+    color: #e0a800;
+    font-size: 20px;
+}
+.small-name {
+    color: #5a6268;
+    font-size: 15px;
+}
+.img-link {
+    display: block;
+    width: 100%;
 }
 @media screen and (max-width: 800px) {
     .item-nav {
